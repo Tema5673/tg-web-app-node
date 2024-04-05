@@ -67,6 +67,4 @@ app.post('/web-data', async (req, res) => {
     }
 })
 
-const PORT = 8000;
-
-app.listen(PORT, () => console.log('server started on PORT ' + PORT))
+app.listen(() => console.log('server started'))
